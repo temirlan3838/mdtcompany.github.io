@@ -1,0 +1,143 @@
+<!--doctype html-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://kit.fontawesome.com/45d73ed7f4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: poppins;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<div id="main">
+    <nav>
+        <a href="#" class="logo">
+            <img src="images/letter-t-logo-template_73940-2-original-removebg-preview.png" />
+        </a>
+        <input class="menu-btn" type="checkbox" id="menu-btn">
+        <label class="menu-icon" for="menu-btn">
+            <span class="nav-icon"></span>
+        </label>
+        <ul class="menu">
+            <li><a class="nav_link" href="#main">Home</a></li>
+            <li><a class="nav_link" href="#skills">Skills</a></li>
+            <li><a class="nav_link" href="#recent">Work</a></li>
+            <li><a class="nav_link" href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</div>
+
+<div class="content">
+    <div class="model" >
+        <img src="images/20200905_223448.jpg" />
+    </div>
+    <div class="main-text" >
+        <h1>Hello, I am Temirlan</h1>
+        <a href="#skills" class="portfolio-btn">See More</a>
+    </div>
+</div>
+
+<div id="skills">
+    <div class="skill-text">
+        <div class="skill-heading" data-aos="zoom-out">
+            <span>My Skills</span>
+            <h2>My experience</h2>
+        </div>
+        <div class="s-box-container" data-aos="zoom-in">
+            <div class="skill-box" >
+                <div class="s-box-icon">
+                    <i class="fab fa-html5"></i>
+                </div>
+                <div class="s-box-text">
+                    <strong>HTML</strong>
+                    <p>I have experience in HTML about 1 year.</p>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="s-box-icon">
+                    <i class="fab fa-css3-alt"></i>
+                </div>
+                <div class="s-box-text">
+                    <strong>CSS</strong>
+                    <p>I have experience in CSS about 1 year.</p>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="s-box-icon">
+                    <i class="fab fa-js-square"></i>
+                </div>
+                <div class="s-box-text">
+                    <strong>JavaScript</strong>
+                    <p>I have experience in JavaScript about 1 year.</p>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="s-box-icon">
+                    <i class="fab fa-java"></i>
+                </div>
+                <div class="s-box-text">
+                    <strong>Java</strong>
+                    <p>I have experience in Java about 2 year.</p>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="skill-img" data-aos="zoom-in">
+        <img src="images/ex.jpg" />
+    </div>
+</div>
+
+
+<div id="recent">
+    <div class="recent-heading" data-aos="zoom-out">
+        <span>Recent</span>
+        <h3>Recent Doing Project Design</h3>
+    </div>
+    <div class="recent-img">
+        <img src="images/a.png" data-aos="zoom-left" />
+    </div>
+    <div>
+    <a href="https://storage.googleapis.com/mdtcompany/index.html" class="recent-btn" target="_blank">View Design</a>
+    </div>
+</div>
+
+
+<div id="contact">
+    <img src="images/c.png" data-aos="zoom-left" />
+    <h3>Get The Best Project Estimation</h3>
+    <div class="contact-input" >
+        <input type="email" placeholder="Example@gmail.com" />
+        <a href="#">Continue</a>
+    </div>
+</div>
+
+
+<footer>
+    <p>Portfolio CV</p>
+    <p>Copyright 2020 - Temirlan Kadyr</p>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="app.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({
+        offset: 400
+        , duration: 700,
+        mobile: 'disabled'
+    });
+</script>
+</body>
+
+</html>
